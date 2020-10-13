@@ -3,7 +3,7 @@ package cn.riris.exception;
 /**
  * service异常
  *
- * @author : bryce
+ * @author : riris
  */
 public class ServiceException extends BaseException
 {

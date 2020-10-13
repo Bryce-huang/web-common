@@ -1,7 +1,7 @@
 package cn.riris.exception;
 
 /**
- * @author : bryce
+ * @author  riris
  */
 public class CaptchaException extends BaseException
 {

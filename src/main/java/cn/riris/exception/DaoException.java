@@ -3,7 +3,7 @@ package cn.riris.exception;
 /**
  * dao异常
  *
- * @author : bryce
+ * @author : riris
  */
 public class DaoException extends BaseException
 {

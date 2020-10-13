@@ -6,7 +6,7 @@ import org.springframework.validation.BindingResult;
  * 参数异常
  * {@link org.springframework.validation.Validator}
  *
- * @author : bryce
+ * @author : riris
  */
 public class ValidatedIllegalArgumentException extends BaseException
 {

@@ -9,8 +9,9 @@ import org.springframework.validation.BindingResult;
 import java.util.regex.Pattern;
 
 /**
- * @author bryce
+ * @author riris
  * 2019/7/4 16:51
+ *  支持嵌套异常检查
  */
 public class BaseController {
     protected Logger log = LoggerFactory.getLogger(this.getClass());

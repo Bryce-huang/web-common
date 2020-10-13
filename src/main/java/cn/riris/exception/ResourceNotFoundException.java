@@ -3,7 +3,7 @@ package cn.riris.exception;
 /**
  * 资源不存在
  *
- * @author : bryce
+ * @author : riris
  */
 public class ResourceNotFoundException extends BaseException
 {

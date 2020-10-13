@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * @author bryce
+ * @author riris
  * 2019/7/1 10:34
  */
 public final class RecursionUtils {

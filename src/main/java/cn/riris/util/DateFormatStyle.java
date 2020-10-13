@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author : bryce
+ * @author : riris
  */
 @Getter
 public enum DateFormatStyle

@@ -3,7 +3,7 @@ package cn.riris.exception;
 /**
  * 权限
  *
- * @author : bryce
+ * @author : riris
  */
 public class ForbiddenException extends BaseException
 {

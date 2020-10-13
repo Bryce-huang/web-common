@@ -12,8 +12,8 @@ import static java.lang.Character.*;
 
 
 /**
- * @author : bryce
- * @date : 2017/7/26
+ * @author : riris
+ *
  */
 public final class StringProUtils
 {

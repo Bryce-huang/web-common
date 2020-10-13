@@ -9,13 +9,15 @@ import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Objects;
 
 /**
- * @author bryce
+ * @author riris
  * 2019/7/1 14:24
  */
 @ToString
@@ -34,12 +36,15 @@ public class R<T> {
     private volatile String respMsg = RespCode.BAD_REQUEST.respMsg;
     @ApiModelProperty(value = "响应内容", position = 3)
     private volatile T respData;
-    @ApiModelProperty(value = "图片服务器前缀", position = 4)
+    @ApiModelProperty(value = "服务器前缀", position = 4)
 
     private volatile String prefix;
     @ApiModelProperty(value = "服务器时间戳", position = 5)
 
-    private volatile Long timestamp;
+    private volatile Long timestamp = LocalDateTime.now()
+                                                   .toInstant(ZoneOffset.of("+8"))
+                                                   .toEpochMilli();
+    ;
     /**
      * 需要过滤属性
      */
