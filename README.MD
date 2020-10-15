@@ -11,7 +11,7 @@ pom.xml 引入
 <dependency>
     <groupId>cn.riris</groupId>
     <artifactId>web-common</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.1.RELEASE</version>
 </dependency>
 ```
 
